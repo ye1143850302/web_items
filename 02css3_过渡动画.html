@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>过渡动画</title>
+	<style>
+		div {
+			width: 400px;
+			height: 150px;
+			background-color:pink;
+			/*1、transition: 要过渡的属性 花费的时间 运动曲线 何时开始(一般用于延时)；*/
+			/*2、如果有多个属性要更改 直接在后面添加就可以*/
+			/*transition: width 1s ease 0s, height 1s ease 0s;*/
+			/*3、all所有的属性都会发生变化*/
+			/*4过渡写到本身上面*/
+			transition: all 1s;
+		}
+		div:hover {
+			width: 800px;
+			height: 250px;
+			background-color: purple;
+		}
+
+	</style>
+</head>
+<body>
+	<div></div>
+</body>
+</html>

@@ -1,0 +1,81 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册页面</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+	<div class="w">
+	<!-- 头部开始 -->
+	<div class="header">
+		<div class="logo">
+			<a href="index.html">
+				<img src="img/logo.png" alt="">
+		     </a>
+		</div>
+		
+	</div>
+	<!-- 头部结束 -->
+	<!-- 注册部分开始 -->
+	<div class="register">
+		<h3>
+			注册新用户
+			<em>我有账号，<a href="#">去登陆</a></em>
+		</h3>
+		<div class="reg_form">
+			<!-- 表单部分 -->
+			<form action="demo.php">
+				<ul>
+				<li>
+					<label for="tel">手机号:</label>
+					<input type="text" class="inp" id="tel">
+					<span class="error">
+						<i class="error_icon"></i>手机号码格式不正确</span>
+						<li>
+					<label for="duanxin">短信验证码:</label>
+					<input type="text" class="inp" id="duanxin">
+				</li>
+				<li>
+					<label for="psw">登录密码:</label>
+					<input type="text" class="inp" id="psw">
+					<span class="success">
+						<i class="success_icon"></i>恭喜你输入正确</span>
+				</li>
+				<li class="safe">安全程度 
+					<em class="ruo">弱</em>
+					<em class="zhong">中</em>
+				    <em class="qiang">强</em>
+				</li>
+				<li>
+					<label for="rpsw">确认密码:</label>
+					<input type="text" class="inp" id="rpsw">
+					<span class="success">
+						<i class="success_icon"></i>恭喜你输入正确</span>
+				</li>
+				<li class="agree">
+					<input type="checkbox" >同意协议并注册
+					<a href="#">《用户协议》</a></li>
+					<li>
+						<input type="submit" value="完成注册" class="over">
+					</li>
+		</ul>
+		</form>
+		</div>
+	</div>
+	<!-- 注册部分结束 -->
+	<!-- 尾部开始-->
+	<div class="footer">
+    <p class="links">
+			 		关于我们  |  联系我们  |  联系客服  |  商家入驻  |  营销中心  |  手机品优购  |  友情链接  |  销售联盟  |  品优购社区  |  品优购公益  |  English Site  |  Contact U
+			 	</p>
+    <p class="copyright">
+			 		地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100 邮箱: zhanghj+itcast.cn  <br>
+          京ICP备08001421号京公网安备110108007702
+			 	</p>
+	</div>
+	<!-- 尾部结束 -->
+	</div>
+</body>
+</html>
